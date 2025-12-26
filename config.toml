@@ -18,7 +18,7 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 excluded-patches = "'Shorts autoplay' 'Open Shorts in regular player'"
 patcher-args = "-e 'Hide Shorts components' -OhideShortsAppShortcut=True"
 
-[Google Photos]
+[Google-Photos]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/"
 included-patches = "'Enable DCIM folders backup control'"
 
