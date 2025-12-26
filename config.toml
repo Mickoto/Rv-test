@@ -18,3 +18,17 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 excluded-patches = "'Shorts autoplay' 'Open Shorts in regular player'"
 patcher-args = "-e 'Hide Shorts components' -OhideShortsAppShortcut=True"
 
+[Google Photos]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/"
+included-patches = "'Enable DCIM folders backup control'"
+
+[MyFitnessPal]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/myfitnesspal-inc/calorie-counter-myfitnesspal/myfitnesspal-calorie-counter-25-50-0-release/"
+
+[Pixiv]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/pixiv-inc/"
+
+[Viber]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/viber-media-s-a-r-l/"
+included-patches = "'Hide Ads'"
+exclusive-patches = true
